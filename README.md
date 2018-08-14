@@ -6,8 +6,11 @@ The Python app uses [Sanic](http://sanic.readthedocs.io/), which is a [Flask](ht
 
 
 ## Deploying on ▲ `now`
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/sanity-io/sanity-microservice-transcription?env=ASSEMBLY_TOKEN&env=PROJECT_ID&env=DATASET&env=SLACK_WEBHOOK_URL&env=SANITY_TOKEN)
 
-This app can be deployed on [now](https://zeit.co/now).
+(remember to `☑️  Build using Docker`)
+
+Or clone this repo and follow these instructions:
 
 1. Register an account at [assemblyai.com](https://assemblyai.com/) to get an API token
 2. Generate a Sanity token with write permissions at [manage.sanity.io](https://manage.sanity.io)
