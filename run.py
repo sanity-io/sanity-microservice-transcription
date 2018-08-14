@@ -6,7 +6,7 @@ from sanic import Sanic
 from sanic import response
 import aiohttp
 app = Sanic(__name__)
-print(os.environ)
+
 # GET ENV SECRETS
 ASSEMBLY_TOKEN = os.environ.get('ASSEMBLY_TOKEN')
 PROJECT_ID = os.environ.get('PROJECT_ID')
