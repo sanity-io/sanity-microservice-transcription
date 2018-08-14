@@ -8,11 +8,11 @@ import aiohttp
 app = Sanic(__name__)
 
 # GET ENV SECRETS
-ASSEMBLY_TOKEN = os.environ.get('ASSEMBLY_TOKEN')
-PROJECT_ID = os.environ.get('PROJECT_ID')
-DATASET = os.environ.get('DATASET')
-SANITY_TOKEN = os.environ.get('SANITY_TOKEN')
-SLACK_WEBHOOK_URL = os.environ.get('SLACK_WEBHOOK_URL')
+ASSEMBLY_TOKEN = os.environ.get('assembly_token')
+PROJECT_ID = os.environ.get('project_id')
+DATASET = os.environ.get('dataset')
+SANITY_TOKEN = os.environ.get('sanity_token')
+SLACK_WEBHOOK_URL = os.environ.get('slack_webhook_url')
 
 # SET UP API CONFIG
 mutations_api = "https://{}.api.sanity.io/v1/data/mutate/{}?returnIds=true&visibility=async".format(PROJECT_ID, DATASET)
