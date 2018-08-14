@@ -1,1 +1,4 @@
-sanic==0.7.0
+aiohttp>=3.3.2
+assemblyai>=0.2.7
+requests>=2.19.1
+sanic>=0.7.0
