@@ -1,0 +1,15 @@
+{
+    "name": "sanity-microservice-transcribe-audio-files",
+    "dotenv": ".env.production",
+    "type": "docker",
+    "public": false,
+    "build": {
+        "env": [
+            "ASSEMBLY_TOKEN",
+            "PROJECT_ID",
+            "DATASET",
+            "SLACK_WEBHOOK_URL",
+            "SANITY_TOKEN"
+        ]
+    }
+}
