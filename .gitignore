@@ -1,0 +1,6 @@
+*.json
+.DS_Store
+__pycache__
+.vscode
+.env*
+*.mp3
