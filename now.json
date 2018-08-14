@@ -1,6 +1,5 @@
 {
     "name": "sanity-microservice-transcribe-audio-files",
-    "dotenv": ".env.production",
     "type": "docker",
     "public": false,
     "build": {
